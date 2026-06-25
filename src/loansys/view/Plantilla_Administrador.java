@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author juans
  */
-public abstract class Plantilla extends JFrame {
+public abstract class Plantilla_Administrador extends JFrame {
 
     private Container contenedor;
     private JPanel panel1, panel2, panel3, panel4, panel5;
@@ -39,7 +39,7 @@ public abstract class Plantilla extends JFrame {
     public JTable tabla;
     private String Nombre_Usuario = "Stevan Otero";
 
-    public Plantilla(String nombre_interfaz) {
+    public Plantilla_Administrador(String nombre_interfaz) {
         super(nombre_interfaz);
 
         contenedor = getContentPane();

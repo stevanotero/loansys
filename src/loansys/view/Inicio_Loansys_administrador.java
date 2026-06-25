@@ -27,7 +27,7 @@ import java.awt.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-public class Inicio_Loansys extends Plantilla {
+public class Inicio_Loansys_administrador extends Plantilla_Administrador {
 
     private Container contenedor;
     private JPanel panel5, panel6, panel7, panel8, panel9, panel10, panel11, panel12;
@@ -37,7 +37,7 @@ public class Inicio_Loansys extends Plantilla {
     private JScrollPane miscroll;
     public JTable tabla;
 
-    public Inicio_Loansys() {
+    public Inicio_Loansys_administrador() {
 
         super("Inicio");
 

@@ -12,13 +12,13 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import loansys.view.Cambio_de_rol;
-import loansys.view.Inicio_Loansys;
+import loansys.view.Inicio_Loansys_administrador;
 import loansys.view.Modal_Modificar_Usuario;
 import loansys.view.Modal_Usuarios_Activos;
 import loansys.view.Modal_cambio_de_rol;
 import loansys.view.Modal_registrar_usuario;
 import loansys.view.ModificarUsuario;
-import loansys.view.Plantilla;
+import loansys.view.Plantilla_Administrador;
 import loansys.view.Registro_de_usuario;
 import loansys.view.Usuarios_activos;
 
@@ -32,7 +32,7 @@ public class ControladorBotones implements ActionListener {
     private boolean visible = false;
     
     
-    Inicio_Loansys inicio = new Inicio_Loansys();
+    Inicio_Loansys_administrador inicio = new Inicio_Loansys_administrador();
     
     // usuarios activos o inactivos
     Usuarios_activos usActivo = new Usuarios_activos();
@@ -56,7 +56,7 @@ public class ControladorBotones implements ActionListener {
     ControladorCambio_de_rol controladorCambio_de_rol;
     Controlador_registro_usuario controlador_registro_usuario;
 
-    public ControladorBotones(Inicio_Loansys inicio) {
+    public ControladorBotones(Inicio_Loansys_administrador inicio) {
         this.inicio = inicio;
 
         //------Activar boton inicio----------//
@@ -205,7 +205,7 @@ public class ControladorBotones implements ActionListener {
     }
 
     //------Metodos para cargar las view----------//
-    public void CargarInicio(Inicio_Loansys inicio) {
+    public void CargarInicio(Inicio_Loansys_administrador inicio) {
         inicio.setVisible(true);
         inicio.setExtendedState(JFrame.MAXIMIZED_BOTH);
         inicio.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

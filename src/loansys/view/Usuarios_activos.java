@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author juans
  */
-public class Usuarios_activos extends Plantilla {
+public class Usuarios_activos extends Plantilla_Administrador {
 
     private Container contenedor;
     public JPanel panel5, panel6, panel7, panel8, panel9, panel10, panel11, panel12;

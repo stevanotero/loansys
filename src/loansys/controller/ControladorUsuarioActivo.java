@@ -7,9 +7,8 @@ package loansys.controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import loansys.view.Inicio_Loansys;
 import loansys.view.Modal_Usuarios_Activos;
-import loansys.view.Plantilla;
+import loansys.view.Plantilla_Administrador;
 import loansys.view.Usuarios_activos;
 
 /**

@@ -39,7 +39,7 @@ import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-public class Cambio_de_rol extends Plantilla {
+public class Cambio_de_rol extends Plantilla_Administrador {
     
    private Container contenedor;
     public JPanel panel5, panel6, panel7, panel8, panel9, panel10, panel11, panel12;
